@@ -1,9 +1,119 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 30px;
+* {
+  box-sizing: border-box;
+  font-family: system-ui, Arial, sans-serif;
 }
-button {
-  padding: 15px 25px;
-  font-size: 18px;
+
+body {
+  margin: 0;
+  background: #f2f4f8;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(135deg, #2c7be5, #1a56c5);
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.header-icons span {
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+/* CATEGORIES */
+.categories {
+  display: flex;
+  overflow-x: auto;
+  background: white;
+  padding: 8px;
+  gap: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.categories button {
+  border: none;
+  background: #eee;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.categories button.active {
+  background: #2c7be5;
+  color: white;
+}
+
+/* PAGES */
+.page {
+  display: none;
+  padding: 10px;
+}
+
+.page.active {
+  display: block;
+}
+
+/* PRODUCT CARD */
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.product img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.product button {
+  margin-top: 6px;
+  padding: 6px 10px;
+  border: none;
+  background: #2c7be5;
+  color: white;
+  border-radius: 6px;
+}
+
+/* QTY */
+.qty {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.qty button {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+/* PROFILE */
+.profile-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* CART BUTTON */
+.cart-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
 }
