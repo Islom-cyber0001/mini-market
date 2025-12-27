@@ -8,7 +8,7 @@ let orders = [];
 
 // === PRODUCTS ===
 const products = [
-  {id:1,name:"Cola",price:10000,cat:"drink",img:"https://picsum.photos/100?1"},
+  {id:1,name:"Cola",price:10000,cat:"drink",img:"https://api.lochin.uz/media/file/image/2021-08/f002d73e-0d22-4c7e-87f6-5ce8b337735b.jpg.500x500_q85_crop-scale.jpg"},
   {id:2,name:"Fanta",price:9000,cat:"drink",img:"https://picsum.photos/100?2"},
   {id:3,name:"Un 1kg",price:7000,cat:"flour",img:"https://picsum.photos/100?3"},
   {id:4,name:"Un 5kg",price:32000,cat:"flour",img:"https://picsum.photos/100?4"},
